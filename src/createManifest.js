@@ -1,6 +1,6 @@
 const JSZip = require('jszip');
 const fileSaver = require('file-saver');
-const createFiles = require('./fileCreater');
+const createFiles = require('./fileCreator');
 
 const createManifest = response => {
   const masterZip = new JSZip();
